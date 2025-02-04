@@ -2,16 +2,24 @@
 
 Overview
 
-The Sleep Coach project is a machine learning-based application designed to analyze sleep patterns and predict student GPA. By leveraging regression models, it provides insights into how sleep habits impact academic performance.
+Develop a model that serves as a virtual sleep health coach, providing personalized recommendations on sleep hygiene and habits to improve students' sleep quality and academic performance. The model should use clustering or classification techniques to categorize students based on their sleep patterns and academic performance, and then generate tailored advice to help each student achieve better sleep health and potentially enhance their academic outcomes
 
-Features
-
-- Data Preprocessing: Cleans, encodes, and scales sleep-related and demographic data.
-- Feature Engineering: Uses key sleep metrics like Total Sleep Time, Midpoint Sleep, and Daytime Sleep.
-- Model Training: Implements Linear Regression, Decision Tree, and Random Forest models.
-- Hyperparameter Tuning: Optimizes models using GridSearchCV for improved accuracy.
-- Performance Evaluation: Uses Mean Squared Error (MSE) & R² Score to assess model effectiveness.
-- Deployment: Provides a Streamlit-based web app for real-time GPA prediction.
+You can access a dataset **(https://www.kaggle.com/datasets/mexwell/cmusleep?select=cmu-sleep.csv)** containing students' detailed sleep and academic  performance records. The dataset includes:
+- Sleep Data:
+   - Average sleep duration per night
+   - Bedtime and wake-up time
+   - Sleep consistency (e.g., variability in sleep schedule)
+   - Sleep quality ratings (e.g., subjective assessments of sleep quality)
+   - Naps taken during the day
+- Academic Data:
+  - Grade Point Average (GPA)
+  - Academic performance in various subjects
+  - Study hours per week
+  - Participation in extracurricular activities
+- Additional Data (if available):
+  - Stress levels
+  - Physical activity levels
+  - Dietary habits
 
 Tech Stack
 
